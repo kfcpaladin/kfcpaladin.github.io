@@ -228,7 +228,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     visibility: hidden !important;
 }
 
-@-webkit-keyframes animat_show{
+@-webkit-keyframes animat_hide{
     100%{opacity:1}
     0%{opacity:0}
 }
