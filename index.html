@@ -53,14 +53,27 @@ body, html {
 </style>
 <body>
 
-<!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <ul class="w3-navbar" id="myNavbar">
-    <li><a href="#" class="w3-padding-large">HOME</a></li>
-    <li class="w3-hide-small w3-right">
-      <a href="#" class="w3-padding-large w3-hover-red"><i class="fa fa-search"></i></a>
-    </li>
-  </ul>
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
 </div>
 
 <!-- First Parallax Image with Logo Text -->
@@ -70,24 +83,6 @@ body, html {
   </div>
 </div>
 
-<!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">A Tale of Love and Lenz Law</h3>
-  <p class="w3-center"><em>Based upon a true story...</em></p>
-  <p class="w3-center">Two households, both alike in ATAR, <br> In fair Petersham, where we lay our scene, <br> From ancient grudge break to new mutiny, <br> Where civil blood makes civil hands unclean. <br> From forth the fatal loins of these two foes <br> A pair of star-cross'd lovers take their life; <br> Whose misadventured piteous overthrows <br> Do with their death bury their parents' strife. <br> The fearful passage of their death-mark'd love, <br> And the continuance of their parents' rage, <br> Which, but their children's end, nought could remove, <br> Is now the two hours' traffic of our stage; <br> The which if you with patient ears attend, <br> What here shall miss, our toil shall strive to mend. 
-</p>
-  <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-section">
-      <p><b>Starring ARTHUR SZE AND WILL YANG</b></p><br>
-      <img src="20160118_190422.jpg" class="w3-circle" height = 200px alt="Photo of Me">
-    </div>
-
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-section">
-      <p>Arthur Sze never had the good looks of Dynamite Black or the intelligence of WILL YANG. But nevertheless he strives for a 99.95 ATAR and to win the heart of his girl. Featuring dynamic options and multiple endings, the player can control Arthur Sze throughout the last two years of high school: Making friends, gaining intelligence, and possible even stealing other peoples gf's. However along the way you will meet many other characters such as his rival Willis La KoK, his favourite teacher, Mr Grant, and even the principal, Ms Moxham. How you interact with these characters will decide Arthur's fate. Slay LGs, be a drop kick, get band 6 ATAR, it is your choice.</p>
-    </div>
-  </div>
-</div>
 
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container">
