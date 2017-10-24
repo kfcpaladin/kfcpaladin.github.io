@@ -222,3 +222,13 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     0%{opacity:0}
     100%{opacity:1}
 }
+.fadeOut {
+    -webkit-animation: animat_hide 0.8s;
+    animation: animat_hide 0.8s;
+    visibility: hidden !important;
+}
+
+@-webkit-keyframes animat_show{
+    100%{opacity:1}
+    0%{opacity:0}
+}
