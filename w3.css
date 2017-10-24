@@ -213,8 +213,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 .fadeIn {
-    -webkit-animation: animat_show 0.8s;
-    animation: animat_show 0.8s;
+    -webkit-animation: animat_show 1.5s;
+    animation: animat_show 1.5s;
     visibility: visible !important;
 }
 
@@ -223,8 +223,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     100%{opacity:1}
 }
 .fadeOut {
-    -webkit-animation: animat_hide 0.8s;
-    animation: animat_hide 0.8s;
+    -webkit-animation: animat_hide 1.5s;
+    animation: animat_hide 1.5s;
     visibility: hidden !important;
 }
 
