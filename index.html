@@ -85,7 +85,7 @@ body, html {
             var thisPos = $(this).offset().top;
 
             var topOfWindow = $(window).scrollTop();
-            if (topOfWindow + windowHeight < thisPos ) {
+            if (topOfWindow + windowHeight*2 > thisPos ) {
                 $(this).removeClass("fadeIn");
                 $(this).addClass("fadeOut");
             }
