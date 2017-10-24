@@ -87,6 +87,7 @@ body, html {
 
             var topOfWindow = $(window).scrollTop();
             if (topOfWindow + windowHeight - 200 > thisPos ) {
+                $(this).removeClass("fadeOut");
                 $(this).addClass("fadeIn");
             }
         });
@@ -111,6 +112,7 @@ body, html {
 
             var topOfWindow = $(window).scrollTop();
             if (scrollBottom - windowHeight - 600 > thisPos ) {
+                $(this).removeClass("fadeIn");
                 $(this).addClass("fadeOut");
             }
         });
