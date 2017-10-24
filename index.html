@@ -110,7 +110,7 @@ body, html {
             var thisPos = $(this).offset().top;
 
             var topOfWindow = $(window).scrollTop();
-            if (scrollBottom - windowHeight + 200 > thisPos ) {
+            if (scrollBottom - windowHeight - 200 > thisPos ) {
                 $(this).addClass("fadeOut");
             }
         });
