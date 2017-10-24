@@ -29,6 +29,17 @@ body, html {
     100%{opacity:1}
 }
     
+.fadeOut {
+    -webkit-animation: animat_hide 0.8s;
+    animation: animat_hide 0.8s;
+    visibility: hidden !important;
+}
+
+@-webkit-keyframes animat_hide{
+    100%{opacity:1}
+    0%{opacity:0}
+}
+    
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
     opacity: 1;
