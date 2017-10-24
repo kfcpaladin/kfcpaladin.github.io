@@ -220,7 +220,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 @-webkit-keyframes animat_show{
     0%{opacity:0}
-    100%{opacity:1}
+    100%{opacity:0.7}
 }
 .fadeOut {
     -webkit-animation: animat_hide 1.5s;
